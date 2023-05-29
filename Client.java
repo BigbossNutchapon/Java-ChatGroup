@@ -48,7 +48,7 @@ public class Client {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g); //call method paintComponent in JPanel, clear area
-                ImageIcon bgImage = new ImageIcon("src/bg.png");
+                ImageIcon bgImage = new ImageIcon("bg.png");
                 g.drawImage(bgImage.getImage(), 0, 0, getWidth(), getHeight(), null); //draw bg
             }
         };
