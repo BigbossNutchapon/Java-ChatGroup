@@ -38,7 +38,7 @@ public class Client {
         loginFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         loginFrame.setSize(500, 300);
         loginFrame.setResizable(false);
-        logo = new ImageIcon("src/logo2.png"); //create an ImageIcon
+        logo = new ImageIcon("logo2.png"); //create an ImageIcon
         loginFrame.setIconImage(logo.getImage());
         loginFrame.setLayout(new BorderLayout());
         loginFrame.setLocationRelativeTo(null);
